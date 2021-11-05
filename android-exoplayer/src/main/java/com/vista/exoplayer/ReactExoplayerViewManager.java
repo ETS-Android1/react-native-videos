@@ -315,8 +315,8 @@ public class ReactExoplayerViewManager extends ViewGroupManager<ReactExoplayerVi
     }
 
     @ReactMethod
-    public void showTracks(final ReactExoplayerViewManager videoView) {
-
+    public void showTracks(final ReactExoplayerView videoView) {
+        videoView.showTracks();
     }
 
     @ReactProp(name = PROP_BUFFER_CONFIG)
