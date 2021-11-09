@@ -84,6 +84,11 @@ class RCTVideo extends RCTView {
     this.videoElement.style.pointerEvents = value ? "auto" : "";
   }
 
+  set showtracks(value: boolean) {
+    this.videoElement.showtracks = value;
+    this.videoElement.style.pointerEvents = value ? "auto" : "";
+  }
+
   set id(value: string) {
     this.videoElement.id = value;
   }

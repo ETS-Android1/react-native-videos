@@ -18,6 +18,7 @@ class RCTVideoManager extends RCTViewManager {
     return super
       .describeProps()
       .addBooleanProp("controls", this.setControls)
+      .addBooleanProp("showtracks", this.setShowTracks)
       .addStringProp("id", this.setId)
       .addBooleanProp("muted", this.setMuted)
       .addBooleanProp("paused", this.setPaused)
@@ -45,6 +46,10 @@ class RCTVideoManager extends RCTViewManager {
 
   setControls(view: RCTVideo, value: boolean) {
     view.controls = value;
+  }
+
+  setShowTracks(view: RCTVideo, value: boolean) {
+    view.showtracks = value;
   }
 
   setId(view: RCTVideo, value: string) {
