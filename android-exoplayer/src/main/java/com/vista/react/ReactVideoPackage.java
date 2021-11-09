@@ -1,4 +1,4 @@
-package com.visa.react;
+package com.vista.react;
 
 import com.vista.exoplayer.DefaultReactExoplayerConfig;
 import com.vista.exoplayer.ReactExoplayerConfig;
