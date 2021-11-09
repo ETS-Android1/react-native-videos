@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+id exo_play_pause_container
+id track_selection_dialog_cancel_button
+id track_selection_dialog_ok_button
+id track_selection_dialog_tab_layout
+id track_selection_dialog_view_pager
+layout exo_player_control_view
+layout track_selection_dialog
+string error_drm_not_supported
+string error_drm_unknown
+string error_drm_unsupported_scheme
+string error_instantiating_decoder
+string error_no_decoder
+string error_no_secure_decoder
+string error_querying_decoders
+string track_selection_title
+string unrecognized_media_format
+style PlayerTheme
+style TrackSelectionDialogThemeOverlay
