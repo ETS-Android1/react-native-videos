@@ -315,12 +315,9 @@ public class ReactExoplayerViewManager extends ViewGroupManager<ReactExoplayerVi
         videoView.setControls(controls);
     }
 
-    @ReactProp(name = PROP_SHOWTRACKS, defaultBoolean = false)
-    public void showTracks(final ReactExoplayerViewManager videoView) {
-        videoView.showTracks();
-    }
-
-    private void showTracks() {
+    @ReactProp(name = PROP_SHOWTRACKS)
+    public void showTracks(final ReactExoplayerView videoView, final boolean tracks) {
+        videoView.showTracks(tracks);
     }
 
     @ReactProp(name = PROP_BUFFER_CONFIG)
