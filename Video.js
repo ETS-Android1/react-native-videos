@@ -471,6 +471,7 @@ Video.propTypes = {
   reportBandwidth: PropTypes.bool,
   disableFocus: PropTypes.bool,
   controls: PropTypes.bool,
+  showtracks: PropTypes.bool,
   audioOnly: PropTypes.bool,
   currentTime: PropTypes.number,
   fullscreenAutorotate: PropTypes.bool,
