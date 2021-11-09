@@ -1406,7 +1406,7 @@ class ReactExoplayerView extends FrameLayout implements
         }
     }
 
-    public void showTracks(){
+    public void showTracks(boolean tracks){
         if (player == null || exoPlayerView == null)
             return;
 
