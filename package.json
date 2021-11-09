@@ -1,10 +1,10 @@
 {
-    "name": "react-native-video",
+    "name": "react-native-videos",
     "version": "5.2.0",
     "description": "A <Video /> element for react-native",
     "main": "Video.js",
     "license": "MIT",
-    "author": "Brent Vatne <brentvatne@gmail.com> (https://github.com/brentvatne)",
+    "author": "Avista Kautsar Reference FROM : Brent Vatne <brentvatne@gmail.com> (https://github.com/brentvatne)",
     "contributors": [],
     "repository": {
         "type": "git",
